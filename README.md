@@ -32,3 +32,14 @@ Shared preferences, Internal storage
 Libraries:
 Jetpack Components: ViewModel, LiveData, etc.
 Material Design: Modern UI elements.
+
+✨ Contributions
+Savings Tracker and Fixed Deposit Management:
+Designed and implemented the core functionalities for managing savings and fixed deposits.
+Developed interest calculation logic for deposits.
+User Interface Design:
+Designed an intuitive front end for easy navigation and usability.
+
+This project is a individual work done by the author.
+
+Enith Hassa - "BANK ME" mobile banking app
