@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DepositsActivity">
+
+    <ImageView
+        android:id="@+id/addDepositButton"
+        android:layout_width="49dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/addicon" />
+
+    <ImageView
+        android:id="@+id/btnPreviousDeposits"
+        android:layout_width="33dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/previousicon" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="169dp"
+        android:layout_marginTop="23dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Deposits"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/fixNameView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="FIX 1"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <View
+        android:id="@+id/curvedRectangleSaving1"
+        android:layout_width="344dp"
+        android:layout_height="175dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/curved_box"
+        android:backgroundTint="@color/fifthMainColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/fixNameView1" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="83dp"
+        android:text="Total Balance"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/curvedRectangleSaving1"
+        app:layout_constraintTop_toTopOf="@+id/curvedRectangleSaving1" />
+
+    <TextView
+        android:id="@+id/balanceView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="43dp"
+        android:text="@string/saving_balance1"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/curvedRectangleSaving1"
+        app:layout_constraintTop_toTopOf="@+id/curvedRectangleSaving1" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="99dp"
+        android:layout_marginEnd="83dp"
+        android:text="Interest Amount"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/curvedRectangleSaving1"
+        app:layout_constraintTop_toTopOf="@+id/curvedRectangleSaving1" />
+
+    <TextView
+        android:id="@+id/interestView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="65dp"
+        android:text="Rs. 20,000.00"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/curvedRectangleSaving1"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="80dp"
+        android:text="Rate: 20%"
+        app:layout_constraintStart_toStartOf="@+id/curvedRectangleSaving1"
+        app:layout_constraintTop_toTopOf="@+id/curvedRectangleSaving1" />
+
+    <TextView
+        android:id="@+id/fixNameView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="FIX 2"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/curvedRectangleSaving1" />
+
+    <View
+        android:id="@+id/curvedRectangleSaving2"
+        android:layout_width="344dp"
+        android:layout_height="175dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/curved_box"
+        android:backgroundTint="@color/forthMainColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/fixNameView2" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="72dp"
+        android:text="Total Balance"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/curvedRectangleSaving2"
+        app:layout_constraintTop_toTopOf="@+id/curvedRectangleSaving2" />
+
+    <TextView
+        android:id="@+id/balanceView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        android:text="@string/saving_balance2"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/curvedRectangleSaving2"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="80dp"
+        android:text="Rate: 10%"
+        app:layout_constraintStart_toStartOf="@+id/curvedRectangleSaving2"
+        app:layout_constraintTop_toTopOf="@+id/curvedRectangleSaving2" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="54dp"
+        android:text="Interest Amount"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/curvedRectangleSaving2"
+        app:layout_constraintTop_toBottomOf="@+id/balanceView2" />
+
+    <TextView
+        android:id="@+id/interestView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="43dp"
+        android:text="Rs. 10,000.00"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/curvedRectangleSaving2"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+    <TextView
+        android:id="@+id/fixNameView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="FIX 3"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/curvedRectangleSaving2" />
+
+    <View
+        android:id="@+id/curvedRectangleSaving3"
+        android:layout_width="344dp"
+        android:layout_height="175dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/curved_box"
+        android:backgroundTint="@color/fifthMainColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/fixNameView3" />
+
+    <TextView
+        android:id="@+id/rateView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="80dp"
+        android:text="Rate: 15%"
+        app:layout_constraintStart_toStartOf="@+id/curvedRectangleSaving3"
+        app:layout_constraintTop_toTopOf="@+id/curvedRectangleSaving3" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="72dp"
+        android:text="Total Balance"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/curvedRectangleSaving3"
+        app:layout_constraintTop_toTopOf="@+id/curvedRectangleSaving3" />
+
+    <TextView
+        android:id="@+id/balanceView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="28dp"
+        android:text="@string/saving_balance3"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/curvedRectangleSaving3"
+        app:layout_constraintTop_toTopOf="@+id/curvedRectangleSaving3" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="95dp"
+        android:layout_marginEnd="54dp"
+        android:text="Interest Amount"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="@+id/curvedRectangleSaving3"
+        app:layout_constraintTop_toTopOf="@+id/curvedRectangleSaving3" />
+
+    <TextView
+        android:id="@+id/interestView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="43dp"
+        android:text="Rs. 15,000.00"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/curvedRectangleSaving3"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

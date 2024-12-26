@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TrackDateActivity">
+
+    <TextView
+        android:id="@+id/appNameView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="64dp"
+        android:fontFamily="sans-serif-black"
+        android:text="BANK ME ///"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.536"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/viewTrackFixName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="36dp"
+        android:fontFamily="sans-serif-black"
+        android:text="FIX NAME"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/previousTrackBtn"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/daysView"
+        android:layout_width="78dp"
+        android:layout_height="79dp"
+        android:layout_marginTop="69dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Days"
+        android:textColor="@color/mainColor"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewTrackFixName" />
+
+    <TextView
+        android:id="@+id/hoursView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Hours"
+        android:textColor="@color/sixthMainColor"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toStartOf="@+id/minutesView"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/daysView" />
+
+    <TextView
+        android:id="@+id/minutesView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Minutes"
+        android:textColor="@color/sixthMainColor"
+        android:textSize="23sp"
+        app:layout_constraintEnd_toStartOf="@+id/secondsView"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/hoursView"
+        app:layout_constraintTop_toBottomOf="@+id/daysView" />
+
+    <TextView
+        android:id="@+id/secondsView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Seconds"
+        android:textColor="@color/sixthMainColor"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/minutesView"
+        app:layout_constraintTop_toBottomOf="@+id/daysView" />
+
+    <ImageView
+        android:id="@+id/previousTrackBtn"
+        android:layout_width="23dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/previousicon" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="--Track your dates here--"
+        android:textColor="@color/mainColor"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/appNameView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

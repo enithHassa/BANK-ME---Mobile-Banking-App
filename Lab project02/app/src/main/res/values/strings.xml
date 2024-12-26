@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Lab project02</string>
+    <string name="Mainpage_text">Welcome to Bank Me!</string>
+    <string name="Onboard1_text">Manage your savings\nthrough Bank Me..</string>
+    <string name="Onboard1_dis">Keep track of your deposits,\nsavings and loans</string>
+    <string name="Onboard2_text">Calculate the interests\nand know the after result</string>
+    <string name="Onboard2_dis">Calculate the deposits interest\namounts accordingly</string>
+    <string name="Onboard3_text">Keep track on your\ndeposit and loan dues</string>
+    <string name="Onboard3_dis">Track the due dates of your most\nimportant financial necessities\nand take benefits</string>
+    <string name="name_hint">Enith Samarasinghe</string>
+    <string name="number_hint">+94714039814</string>
+    <string name="email_hint">enithsamarasinghe@abc.com</string>
+    <string name="password_hint">**********</string>
+    <string name="welcome_tag">Welcome!</string>
+    <string name="date_tag">1st of Augest 2024</string>
+    <string name="time_tag">14:48:33</string>
+    <string name="saving_balance1">Rs. 1,254,456.90</string>
+    <string name="saving_balance2">Rs. 3,554,476.90</string>
+    <string name="saving_balance3">Rs. 1,785,160.90</string>
+    <string name="promo_text">Promo and Insights</string>
+    <string name="promo_dis">We are working towards moving all customers and products to\nthe new Bank ME
+        app. Until this happens, our Bank Me app\nand Internet Banking will continue to
+        service products such as Online Savings Accounts, Everyday Transaction\n
+        Accounts, personal loans, credit cards and home loans.</string>
+</resources>

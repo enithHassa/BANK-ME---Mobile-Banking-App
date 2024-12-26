@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="mainColor">#292F77</color>
+    <color name="secondMainColor">#0F5EE6</color>
+    <color name="thirdMainColor">#D03477E9</color>
+    <color name="forthMainColor">#BF2B74ED</color>
+    <color name="fifthMainColor">#BF1656C2</color>
+    <color name="sixthMainColor">#BF0A53CE</color>
+</resources>
